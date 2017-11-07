@@ -1,4 +1,4 @@
-A static version of a website called "Ravenous", a Yelp-like web application built with [React](https://github.com/facebookincubator/create-react-app).
+A Yelp-like web application built with [React](https://github.com/facebookincubator/create-react-app).
 
 In the project directory, you can run:
 
