@@ -1,5 +1,8 @@
-const clientId = 'vxCvX1jIGY2tM9VXPpq-1g';
-const secret = 'H3711DzOcYVxZqU3CO2QTImkcclU73nOTsMaa2quW5XWmqyCzzPmFBGKtNvrLPM3';
+import apiConfig from './apikeys';
+
+const clientId = apiConfig.clientId;
+const secret = apiConfig.secret;
+const apiKey = apiConfig.apiKey;
 
 let accessToken;
 
@@ -24,7 +27,8 @@ const Yelp = {
 
 return fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
   headers: {
-    Authorization: `Bearer ${accessToken}`
+    // Authorization: `Bearer ${accessToken}`
+    Authorization: `Bearer ${apiKey}`
   }
       })
       .then(response => {return response.json(); })
