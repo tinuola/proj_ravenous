@@ -1,16 +1,20 @@
-## Ravenous
+# Ravenous
 
-A Yelp-like web application built with [React](https://github.com/facebookincubator/create-react-app).
+A Yelp-like web application to search for restaurant listings by location/zip codes.
 
-A [Codecademy Pro Intensive](https://pro.codecademy.com/) project.
+_A [Codecademy Pro Intensive](https://pro.codecademy.com/) project._
 
-### View the app
+### Tooling
+* React
+* Yelp API
 
-* On [Heroku](https://ravenous-webapp.herokuapp.com/)
+### View / Use App
 
-* In the project directory, run:
+* [Ravenous](https://ravenous-webapp.herokuapp.com/) _(On Heroku)_
 
-#### `npm start`
+### Local Installation
+* Clone the repo
+* In Terminal, run: _npm install_
+* In the project directory, run: _npm start_
 
-This runs the app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This runs the app in development mode and opens it on [http://localhost:3000](http://localhost:3000) in the browser.
