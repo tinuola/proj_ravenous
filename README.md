@@ -1,12 +1,16 @@
-## Ravenous
+# Ravenous
 
-A Yelp-like web application to search for restaurant listings by location/zip codes. Built with React.
+A Yelp-like web application to search for restaurant listings by location/zip codes.
 
-A [Codecademy Pro Intensive](https://pro.codecademy.com/) project.
+_A [Codecademy Pro Intensive](https://pro.codecademy.com/) project._
 
-### View the app
+### Tooling
+* React
+* Yelp API
 
-* On [Heroku](https://ravenous-webapp.herokuapp.com/)
+### View / Use App
+
+* [Ravenous](https://ravenous-webapp.herokuapp.com/) _(On Heroku)_
 
 ### Local Installation
 * Clone the repo
