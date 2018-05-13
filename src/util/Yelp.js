@@ -1,8 +1,6 @@
-import apiConfig from './apikeys';
-
-const clientId = apiConfig.clientId;
-const secret = apiConfig.secret;
-const apiKey = apiConfig.apiKey;
+const clientId = process.env.REACT_APP_CLIENTID;
+const secret = process.env.REACT_APP_SECRET;
+const apiKey = process.env.REACT_APP_APIKEY;
 
 let accessToken;
 
@@ -27,7 +25,6 @@ const Yelp = {
 
 return fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
   headers: {
-    // Authorization: `Bearer ${accessToken}`
     Authorization: `Bearer ${apiKey}`
   }
       })
